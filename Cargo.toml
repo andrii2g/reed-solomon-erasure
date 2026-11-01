@@ -3,7 +3,7 @@ name = "reed-solomon-erasure-demo"
 version = "0.1.0"
 edition = "2024"
 description = "An educational systematic Reed-Solomon erasure codec over GF(256)"
-license = "MIT"
+publish = false
 
 [lib]
 name = "reed_solomon_erasure_demo"
@@ -11,3 +11,4 @@ name = "reed_solomon_erasure_demo"
 [[bin]]
 name = "rs-demo"
 path = "src/main.rs"
+

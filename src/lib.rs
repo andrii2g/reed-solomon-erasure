@@ -1,4 +1,4 @@
-//! Educational Reed–Solomon erasure coding over GF(256).
+#![doc = include_str!("../README.md")]
 pub mod codec;
 pub mod gf256;
 pub mod matrix;

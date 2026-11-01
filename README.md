@@ -110,8 +110,7 @@ Tests cover all 65,536 GF products against an independent polynomial multiplier,
 all nonzero inverses, row-swapping matrix inversion, and all 130 patterns of up to
 three erasures for 6+3 (including all 84 selections of six survivors). Further tests
 cover empty and padded inputs, parity-only/data-only/mixed loss, maximum shard
-counts, malformed input without mutation, and CLI behavior. CI runs on Linux and
-Windows with stable Rust.
+counts, malformed input without mutation, and CLI behavior.
 
 This project handles known erasures only. It assumes surviving shards are correct
 and does not detect or locate corrupt bytes. It has no filesystem storage layer,

@@ -31,7 +31,7 @@ plus small survivor-selection work. Setup is O(k^3 + (k+m)*k^2).
 
 1. GF(256), matrix operations, independent arithmetic tests.
 2. Systematic encoding, padding/reassembly, reconstruction, exhaustive tests.
-3. CLI, counters/timings, comparison cases, documentation, CI.
+3. CLI, counters/timings, comparison cases, documentation.
 
 ## Local performance observation
 
@@ -54,5 +54,4 @@ Every run verified the complete encoded shard set and the original payload.
 Different cases repair different byte counts and mixes of data/parity, so use
 both decode and repair throughput when interpreting the table. CPU scheduling,
 allocation, shard sizes, cache effects, and repetition count affect measurements.
-No external codec performance comparison or Linux execution is claimed here;
-the checked-in CI workflow provides Linux and Windows validation when run.
+No external codec performance comparison or Linux execution is claimed here.
